@@ -1,4 +1,19 @@
-@import "normalize.css";
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+@import "normalize.css";
+@import "header.css";
+@import "section.css";
+@import "main.css";
+
+body {
+    background-color: #121829;
+    background-image: url("../assets/Background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
