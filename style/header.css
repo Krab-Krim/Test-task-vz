@@ -1,0 +1,38 @@
+.header {
+
+}
+
+.header__container {
+    background: rgba(18, 24, 41, 0.8);
+    backdrop-filter: blur(20px);
+}
+
+.header__container__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__container__nav__logo {
+    width: 40px;
+    height: 40px;
+    padding: 20px 0;
+}
+
+.header__container__nav__list ul {
+    list-style: none;
+    display: flex;
+    gap: 48px;
+}
+
+.header__container__nav__list ul li a{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #A8AEBF;
+    cursor: pointer;
+    text-decoration: none;
+}

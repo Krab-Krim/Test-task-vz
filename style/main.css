@@ -1,0 +1,64 @@
+.main h2 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #767E94;
+    margin-top: 48px;
+}
+
+.main__list{
+    column-count: 4;
+    column-gap: 1em;
+    -webkit-column-count: 4;
+    -moz-column-count: 4;
+    -ms-column-count: 4;
+    -o-column-count: 4;
+    column-count: 4;
+}
+
+.main__list__item {
+    display: inline-block;
+    margin: 0 0 1em;
+    width: 100%;
+    position: relative;
+}
+
+.main__button {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+}
+
+.main__button button {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 16px 32px;
+    background: #7B6EF6;
+    border-radius: 12px;
+    cursor: pointer;
+    border: none;
+}
+
+@media all and (max-width: 1024px){
+    .main__list {
+        column-count: 3;
+    }
+}
+
+@media all and (max-width: 768px){
+    .main__list {
+        column-count: 2;
+    }
+}
+
+@media all and (max-width: 480px){
+    .main__list {
+        column-count: 1;
+    }
+}
