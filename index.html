@@ -10,6 +10,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.4.js"
             integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" charset="utf-8"></script>
 </head>
 <body>
 
@@ -53,27 +54,21 @@
 <main class="main">
     <div class="container">
         <h2>Популярные</h2>
-        <div class="main__list">
-            <div class="main__list__item">Тут содержимое блока</div>
-            <div class="main__list__item">Тут содержимое блока</div>
-            <div class="main__list__item">Тут содержимое блока</div>
-            <div class="main__list__item">Тут содержимое блока</div>
-            <div class="main__list__item">Тут содержимое блока</div>
-            <div class="main__list__item">Тут содержимое блока</div>
-            <div class="main__list__item">Тут содержимое блока</div>
-            <div class="main__list__item">Тут содержимое блока</div>
-            <div class="main__list__item">Тут содержимое блока</div>
-            <div class="main__list__item">Тут содержимое блока</div>
-            <div class="main__list__item">Тут содержимое блока</div>
-            <div class="main__list__item">Тут содержимое блока</div>
+        <div class="main__list" id="film-list">
         </div>
-        <div class="main__button">
-            <button class="main__button__up">Назад</button>
-            <button class="main__button__back">Вперёд</button>
+        <div class="main__button pagination">
+            <div class="page-item previous-page disable">
+                <button class="main__button__up page-link">Назад</button>
+            </div>
+
+            <div class="page-item next-page">
+                <button class="main__button__back page-link">Вперёд</button>
+            </div>
         </div>
     </div>
-
 </main>
+
+<footer></footer>
 
 <script src="js/index.js"></script>
 </body>
