@@ -1,7 +1,7 @@
 $(document).ready(function () {
   const $app = $('#film-list');
-  const $ul = $('<ul class="main__list__ul paginationTable"/>');
-  const $li = $('<li class="main__list__item tableItem" hidden><button class="main__list__item-button">' +
+  const $ul = $('<ul class="main__list__ul"/>');
+  const $li = $('<li class="main__list__item"><button class="main__list__item-button">' +
     '<img src="../assets/star.svg" alt="star">' +
     '<span class="main__list__item__span-ratingKinopoisk"></span></button>' +
     '<img class="main__list__item__poster" alt="poster"/> ' +
