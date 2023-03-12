@@ -45,10 +45,20 @@
 }
 
 .section__search__label input {
-    background: rgba(0, 0, 0, 0.1);
+    background: #00000000;
     border: none;
+    outline: 0 !important;
+    caret-color: white;
+    color: white;
 }
 
 .section__search__label img + .section__search__label input {
     padding-left: 26px;
 }
+
+@media all and (max-width: 991px){
+    .section__search {
+        width: 100%;
+    }
+}
+
