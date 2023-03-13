@@ -78,11 +78,13 @@
 .page-item.previous-page.disable button{
     background: #7B6EF6;
     opacity: 0.4;
+    cursor: default;
 }
 
 .page-item.next-page.disable button{
     background: #7B6EF6;
     opacity: 0.4;
+    cursor: default;
 }
 
 .main__list__item__span-nameOriginal {
